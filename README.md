@@ -3,6 +3,23 @@
 ## Description
 API allowing real estate price predictions using a trained machine learning model.
 
+## Projet Structure
+
+```text
+immo-eliza-deployment/
+│
+├── api/
+│   ├── app.py                
+│   ├── predict.py             
+│   ├── xgboost_model.pkl      
+│   ├── requirements.txt       
+│   └── Dockerfile             
+│
+├── .gitignore
+├── README.md
+└── venv/
+```
+
 ## Technologies
 - FastAPI
 - Scikit-Learn
